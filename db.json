@@ -1,0 +1,72 @@
+[
+  {
+    "manager": [
+      {
+        "role": "manager",
+        "modules": [
+          {
+            "bench": {
+              "isShow": true,
+              "readAccess": true,
+              "writeAccess": false
+            },
+            "resources": {
+              "isShow": true,
+              "readAccess": true,
+              "writeAccess": false
+            },
+            "projects": {
+              "isShow": true,
+              "readAccess": true,
+              "writeAccess": false
+            },
+            "consultants": {
+              "isShow": true,
+              "readAccess": true,
+              "writeAccess": false
+            },
+            "configure": {
+              "isShow": false,
+              "readAccess": false,
+              "writeAccess": false
+            }
+          }
+        ]
+      }
+    ],
+    "admin": [
+      {
+        "role": "admin",
+        "modules": [
+          {
+            "bench": {
+              "isShow": true,
+              "readAccess": true,
+              "writeAccess": true
+            },
+            "resources": {
+              "isShow": true,
+              "readAccess": true,
+              "writeAccess": true
+            },
+            "projects": {
+              "isShow": true,
+              "readAccess": true,
+              "writeAccess": true
+            },
+            "consultants": {
+              "isShow": true,
+              "readAccess": true,
+              "writeAccess": true
+            },
+            "configure": {
+              "isShow": true,
+              "readAccess": true,
+              "writeAccess": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
