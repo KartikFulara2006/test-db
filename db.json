@@ -1,6 +1,6 @@
 {
   "manager": {
-    "role": "manager2",
+    "role": "manager",
     "modules": [
       {
         "bench": {
