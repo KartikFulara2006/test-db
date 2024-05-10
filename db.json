@@ -1,62 +1,62 @@
 {
   "manager": {
     "role": "manager",
-    "modules": {
-      "bench": {
-        "isShow": true,
+    "modules": [
+      {
+        "name": "bench",
         "readAccess": true,
-        "writeAccess": false
+        "writeAccess": true
       },
-      "resources": {
-        "isShow": true,
+      {
+        "name": "resources",
         "readAccess": true,
-        "writeAccess": false
+        "writeAccess": true
       },
-      "projects": {
-        "isShow": true,
+      {
+        "name": "projects",
         "readAccess": true,
-        "writeAccess": false
+        "writeAccess": true
       },
-      "consultants": {
-        "isShow": true,
+      {
+        "name": "consultants",
         "readAccess": true,
-        "writeAccess": false
+        "writeAccess": true
       },
-      "configure": {
-        "isShow": false,
+      {
+        "name": "configure",
         "readAccess": false,
-        "writeAccess": false
+        "writeAccess": true
       }
-    }
+    ]
   },
   "admin": {
     "role": "admin",
-    "modules": {
-      "bench": {
-        "isShow": true,
+    "modules": [
+      {
+        "name": "bench",
         "readAccess": true,
         "writeAccess": true
       },
-      "resources": {
-        "isShow": true,
+      {
+        "name": "resources",
         "readAccess": true,
         "writeAccess": true
       },
-      "projects": {
-        "isShow": true,
+      {
+        "name": "projects",
         "readAccess": true,
         "writeAccess": true
       },
-      "consultants": {
-        "isShow": true,
+      {
+        "name": "consultants",
         "readAccess": true,
         "writeAccess": true
       },
-      "configure": {
-        "isShow": true,
+      {
+        "name": "configure",
         "readAccess": true,
         "writeAccess": true
       }
-    }
+    ]
   }
 }
