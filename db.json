@@ -15,7 +15,7 @@
       {
         "name": "projects",
         "readAccess": true,
-        "writeAccess": true
+        "writeAccess": false
       },
       {
         "name": "consultants",
@@ -25,7 +25,7 @@
       {
         "name": "configure",
         "readAccess": false,
-        "writeAccess": true
+        "writeAccess": false
       }
     ]
   },
