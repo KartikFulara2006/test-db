@@ -1,62 +1,192 @@
 {
   "manager": {
     "role": "manager",
-    "modules": [
-      {
-        "name": "bench",
-        "readAccess": true,
-        "writeAccess": true
+    "modules": {
+      "dashboard": {
+        "access": true,
+        "cards": {
+          "readAccess": true,
+          "writeAccess": false
+        },
+        "graphs": {
+          "readAccess": true,
+          "writeAccess": false
+        },
+        "donut": {
+          "readAccess": true,
+          "writeAccess": false
+        },
+        "insight": {
+          "readAccess": true,
+          "writeAccess": false
+        },
+        "projectList": {
+          "readAccess": true,
+          "writeAccess": false
+        },
+        "consultantList": {
+          "readAccess": true,
+          "writeAccess": false
+        },
+        "benchList": {
+          "readAccess": true,
+          "writeAccess": false
+        }
       },
-      {
-        "name": "resources",
-        "readAccess": true,
-        "writeAccess": true
+      "resources": {
+        "access": true,
+        "cards": {
+          "readAccess": true,
+          "writeAccess": false
+        },
+        "listing": {
+          "readAccess": true,
+          "writeAccess": false
+        }
       },
-      {
-        "name": "projects",
-        "readAccess": true,
-        "writeAccess": false
+      "projects": {
+        "access": true,
+        "cards": {
+          "readAccess": true,
+          "writeAccess": false
+        },
+        "listing": {
+          "readAccess": true,
+          "writeAccess": false
+        }
       },
-      {
-        "name": "consultants",
-        "readAccess": true,
-        "writeAccess": true
+      "consultants": {
+        "access": true,
+        "cards": {
+          "readAccess": true,
+          "writeAccess": false
+        },
+        "listing": {
+          "readAccess": true,
+          "writeAccess": false
+        }
       },
-      {
-        "name": "configure",
-        "readAccess": false,
-        "writeAccess": false
+      "configure": {
+        "access": true,
+        "addResources": {
+          "readAccess": true,
+          "writeAccess": false
+        },
+        "addProjects": {
+          "readAccess": true,
+          "writeAccess": false
+        },
+        "addAllocations": {
+          "readAccess": true,
+          "writeAccess": false
+        }
       }
-    ]
+    }
   },
   "admin": {
     "role": "admin",
-    "modules": [
-      {
-        "name": "bench",
-        "readAccess": true,
-        "writeAccess": true
+    "modules": {
+      "dashboard": {
+        "access": true,
+        "cards": {
+          "readAccess": true,
+          "writeAccess": false
+        },
+        "projectCost": {
+          "readAccess": true,
+          "writeAccess": false
+        },
+        "benchCost": {
+          "readAccess": true,
+          "writeAccess": false
+        },
+        "benchOverview": {
+          "readAccess": true,
+          "cards": {
+            "readAccess": true,
+            "writeAccess": true
+          },
+          "departmentsOnBench": {
+            "readAccess": true,
+            "writeAccess": true
+          },
+          "benchInsights": {
+            "readAccess": true,
+            "writeAccess": false
+          }
+        },
+        "activeProjectList": {
+          "readAccess": true,
+          "writeAccess": true
+        },
+        "consultantList": {
+          "readAccess": true,
+          "writeAccess": true
+        },
+        "benchList": {
+          "readAccess": true,
+          "writeAccess": true
+        }
       },
-      {
-        "name": "resources",
-        "readAccess": true,
-        "writeAccess": true
+      "bench": {
+        "access": true,
+        "cards": {
+          "readAccess": true,
+          "writeAccess": true
+        },
+        "listing": {
+          "readAccess": true,
+          "writeAccess": true
+        }
       },
-      {
-        "name": "projects",
-        "readAccess": true,
-        "writeAccess": true
+      "resources": {
+        "access": true,
+        "cards": {
+          "readAccess": true,
+          "writeAccess": true
+        },
+        "listing": {
+          "readAccess": true,
+          "writeAccess": true
+        }
       },
-      {
-        "name": "consultants",
-        "readAccess": true,
-        "writeAccess": true
+      "projects": {
+        "access": true,
+        "cards": {
+          "readAccess": true,
+          "writeAccess": true
+        },
+        "listing": {
+          "readAccess": true,
+          "writeAccess": true
+        }
       },
-      {
-        "name": "configure",
-        "readAccess": true,
-        "writeAccess": true
+      "consultants": {
+        "access": true,
+        "cards": {
+          "readAccess": true,
+          "writeAccess": true
+        },
+        "listing": {
+          "readAccess": true,
+          "writeAccess": true
+        }
+      },
+      "configure": {
+        "access": true,
+        "addResources": {
+          "readAccess": true,
+          "writeAccess": true
+        },
+        "addProjects": {
+          "readAccess": true,
+          "writeAccess": true
+        },
+        "addAllocations": {
+          "readAccess": true,
+          "writeAccess": true
+        }
       }
-    ]
+    }
   }
 }
